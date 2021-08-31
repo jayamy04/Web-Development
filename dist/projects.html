@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Amy Lee</title>
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="/styles.b61e60ae.css">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento" rel="stylesheet">
+  <link rel="icon" href="/favicon.26242483.ico">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/785fad3219.js" crossorigin="anonymous"></script>
+</head>
+
+<body data-barba="wrapper">
+  <!-- Nav Bar  -->
+  <div class="cursor"></div>
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="/index.html">Amy</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/skills.html">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/projects.html">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/resume.html">Resume</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <section data-barba="container" data-barba-namespace="projects" id="projects">
+    <div id="projects-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="7000" data-bs-pause="hover">
+      <h2 class="heading projects-heading">My Projects</h2>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h3 class="heading projects-sub-heading">Portfolio Website Redesign & Update</h3>
+          <i class="icon projects-icon fas fa-stopwatch"> 7 days</i>
+          <p>
+            This portfolio website you are viewing was once created using only HTML&CSS and looked like this: <a href="url" target="_blank">link text</a>. It has been updated with Bootstrap, Javascript, JQuery, and React for 7 days. Check out the difference.
+          </p>
+        </div>
+        <div class="carousel-item">
+          <h3 class="heading projects-sub-heading">Website for "Breaking Barriers!"</h3>
+          <i class="icon projects-icon fas fa-stopwatch"> 10 weeks</i>
+          <p>
+            I was in charge of building the landing page of <a href="https://breaking-barriers-davis.web.app/" target="_blank">this website</a> for "Breaking Barriers"-- a nonprofit organization that strives to bring younger and older generations closer together.
+          </p>
+        </div>
+        <div class="carousel-item">
+          <h3 class="heading projects-sub-heading">Figma Design for a Recipe Mobile App</h3>
+          <i class="icon projects-icon fas fa-stopwatch"> 7 days</i>
+          <p>
+            Here is <a href="https://www.figma.com/file/lYhOlRhNqQHsYKiamOpyzO/chef_recipe_app?node-id=0%3A1" target="_blank">the link</a> to the figma file! I watched a tutorial to follow along, and I learned a lot about Figma and graphic design concepts regarding icons, colors, typography, alignment, and consistency.
+          </p>
+        </div>
+        <div class="carousel-item">
+          <h3 class="heading projects-sub-heading">More Projects Coming Soon!</h3>
+          <i class="icon projects-icon fas fa-stopwatch"> 7 days</i>
+          <p>
+            I am currently working on a social media app design that would provide a community for self-taught dancers. There are a lack of communities where self-taught dancers can share their experiences and learn dances together, so they tend to lose interest in dance.<a href="https://www.figma.com/file/lYhOlRhNqQHsYKiamOpyzO/chef_recipe_app?node-id=0%3A1" target="_blank">the link</a> to the figma file! I watched a tutorial to follow along, and I learned a lot about Figma and graphic design concepts regarding icons, colors, typography, alignment, and consistency.
+          </p>
+        </div>
+
+      </div>
+      <button class="carousel-control-prev" role="button" href="#projects-carousel" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" role="button" href="#projects-carousel" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <script src="https://unpkg.com/@barba/core" charset="utf-8"></script>
+  <script src="https://unpkg.com/@barba/css" charset="utf-8"></script>
+  <script>barba.use(barbaCss);
+barba.init();</script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/barba.js/0.0.2/barba.min.js" charset="utf-8"></script>
+  <script src="/portfolio_website.e31bb0bc.js" charset="utf-8"></script>
+</body>
+
+</html>
